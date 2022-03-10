@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_body_element_to_border_info_profile"
+    tools:context=".profile.menuprofile.reddeempoints.RedeemPointsActivity">
+
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotu_regular"
+        android:text="@string/text_label_redeem_points"
+        android:layout_marginTop="@dimen/margin_top_label_to_back"
+        android:textSize="@dimen/text_size_label_redeem_points"
+        android:textStyle="bold"
+        android:textColor="@color/color_black_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/text_label_you_have"
+        android:layout_marginTop="@dimen/margin_top_label_you_have_to_hi_menu_profile"
+        android:textSize="@dimen/text_size_label_you_have_redeem_points"
+        android:layout_marginLeft="@dimen/margin_left_label_you_have_to_screen_redeem_points"
+        android:textColor="@color/color_black_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_medium"
+        android:text="@string/text_points_test"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_top_point_to_label_point_redeem_point"
+        android:textSize="@dimen/text_size_point_redeem_points"
+        android:layout_marginLeft="@dimen/margin_left_label_you_have_to_screen_redeem_points"
+        android:textColor="@color/color_black_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/text_rules_redeem_points_test"
+        android:layout_marginTop="@dimen/margin_top_label_to_back"
+        android:textSize="@dimen/text_size_rules_redeem_points"
+        android:textColor="@color/color_gray_4"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_top_label_redeem_to_rules_redeem_points"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_redeem"
+            android:textSize="@dimen/text_size_label_redeem"
+            android:textColor="@color/color_gray_4"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtRedeemPoints"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_spinner_salutation_account_profile"
+                android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/jost_light"
+                android:inputType="number"
+                android:paddingLeft="@dimen/padding_left_edittext_change_password"
+                android:text="@string/text_number_points_test"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_size_default_account_profile" />
+
+            <TextView
+                android:id="@+id/txtMax"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_max"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textStyle="bold"
+                android:textColor="@color/color_yellow_1"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:id="@+id/btnConfirm"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_confirm"
+            android:background="@drawable/bg_button_black"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margintop_button_to_item_redeem_point"
+            />
+
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_marginTop="@dimen/margin_top_between_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:background="@drawable/bg_button_white"
+            android:text="@string/text_button_cancel"
+            android:textColor="@color/color_gray_4"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:fontFamily="@font/jost_regular"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/padding_body_account_to_border_profile"
+    android:paddingLeft="@dimen/padding_body_account_to_border_profile"
+    tools:context=".profile.menuprofile.account.AccountActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/margin_bottom_body_to_screen"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relAvatar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_logo_avatar_to_border_top_profile"
+            android:layout_width="@dimen/size_width_height_logo_avatar_default"
+            android:layout_height="@dimen/size_width_height_logo_avatar_default">
+
+            <ImageView
+                android:padding="@dimen/padding_avatar_profile"
+                android:id="@+id/imgLogoAvatar"
+                android:layout_width="@dimen/size_width_height_logo_avatar_default"
+                android:layout_height="@dimen/size_width_height_logo_avatar_default"
+                android:src="@drawable/logo_avatar_default" />
+
+            <ImageView
+                android:id="@+id/imgIconCamera"
+                android:layout_width="@dimen/size_width_height_icon_camera"
+                android:layout_height="@dimen/size_width_height_icon_camera"
+                android:src="@drawable/icon_camera"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/margin_icon_camera_to_border_profile"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:fontFamily="@font/jost_light"
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_email_to_avatar_profile"
+            android:text="@string/text_email_test"
+            android:textColor="@color/color_black_1"
+            android:textSize="@dimen/text_size_email_profile" />
+
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:id="@+id/txtLabelSalutional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_salutation"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            android:layout_marginTop="@dimen/margin_top_body_to_email_account_profile"
+            />
+
+        <Spinner
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/spnSalutation"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            android:gravity="left"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:id="@+id/txtLabelFirstName"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_first_name"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtFirstName"
+            android:background="@android:color/transparent"
+            android:text="@string/text_first_name_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:id="@+id/txtLabelLastName"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_last_name"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtLastName"
+            android:background="@android:color/transparent"
+            android:text="@string/text_last_name_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/size_haft_between_element_account_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/jost_regular"
+                    android:id="@+id/txtLabelGender"
+                    android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_label_gender"
+                    android:textSize="@dimen/text_size_label_account_profile"
+                    android:textColor="@color/color_gray_1"
+                    />
+
+                <Spinner
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_spinner_salutation_account_profile"
+                    android:id="@+id/spnGender"
+                    android:text="@string/text_first_name_test"
+                    android:textSize="@dimen/text_size_default_account_profile"
+                    android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_line_saperate_element"
+                    android:background="@color/color_gray_2"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/size_haft_between_element_account_profile"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/jost_regular"
+                    android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_label_date_of_birth"
+                    android:textSize="@dimen/text_size_label_account_profile"
+                    android:textColor="@color/color_gray_1"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:fontFamily="@font/jost_light"
+                        android:id="@+id/edtDateOfBirth"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_spinner_salutation_account_profile"
+                        android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+                        android:background="@android:color/transparent"
+                        android:inputType="datetime"
+                        android:text="@string/text_date_of_birth"
+                        android:textColor="@color/color_gray_3"
+                        android:textSize="@dimen/text_size_default_account_profile" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/height_icon_calendar_date_account_profile"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_calendar_black" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_line_saperate_element"
+                    android:background="@color/color_gray_2"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_country_code"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            android:layout_marginTop="@dimen/margin_top_body_to_email_account_profile"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/spnCountryCode"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            android:gravity="left"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_contract_number"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtContractNumber"
+            android:background="@android:color/transparent"
+            android:text="@string/text_contract_number_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_nationality"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            android:layout_marginTop="@dimen/margin_top_body_to_email_account_profile"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/spnNationality"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            android:gravity="left"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_country"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            android:layout_marginTop="@dimen/margin_top_body_to_email_account_profile"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/spnCountry"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            android:gravity="left"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_facebook"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtFacebook"
+            android:background="@android:color/transparent"
+            android:text="@string/text_facebook_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_istagram"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtISTAGRAM"
+            android:background="@android:color/transparent"
+            android:text="@string/text_istagram_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:fontFamily="@font/jost_regular"
+            android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_telegram"
+            android:textSize="@dimen/text_size_label_account_profile"
+            android:textColor="@color/color_gray_1"
+            />
+
+        <EditText
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_spinner_salutation_account_profile"
+            android:id="@+id/edtTelegram"
+            android:background="@android:color/transparent"
+            android:text="@string/text_telegram_test"
+            android:textSize="@dimen/text_size_default_account_profile"
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:textColor="@color/white"
+            android:id="@+id/btnUpdate"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_button_update"
+            android:background="@drawable/bg_button_black"
+            android:layout_marginTop="@dimen/margin_top_button_to_item_account_profile"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:textColor="@color/color_black_1"
+            android:id="@+id/btnChangePassword"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_button_change_password"
+            android:background="@drawable/bg_button_white"
+            android:layout_marginTop="@dimen/margin_top_between_button_account_profile"
+            />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".profile.menuprofile.myactivities.MyActivitiesActivity">
+
+    <LinearLayout
+        android:nestedScrollingEnabled="true"
+        android:paddingLeft="@dimen/padding_body_element_to_border_info_profile"
+        android:paddingRight="@dimen/padding_body_element_to_border_info_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu_regular"
+            android:text="@string/text_my_activities"
+            android:layout_marginTop="@dimen/margin_top_label_to_back"
+            android:textSize="@dimen/text_size_label_redeem_points"
+            android:textStyle="bold"
+            android:textColor="@color/color_black_2"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_menu_to_title_my_activities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_line_saperate_element"
+                android:background="@color/color_gray_2"
+                android:layout_alignParentBottom="true"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rcvMenu"
+                android:padding="@dimen/padding_reset"
+                />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_top_tag_to_menu_my_activities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/btnTagAll"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_button_tag"
+                android:drawableRight="@drawable/ic_menu_black"
+                android:background="@drawable/bg_tag_unselected"
+                android:gravity="center"
+                android:textColor="@color/color_black_1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_tag"
+                />
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_left_tag"
+                android:id="@+id/btnTagSortBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tag_sort_by"
+                android:background="@drawable/bg_tag_unselected"
+                android:gravity="center"
+                android:textColor="@color/color_black_1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_tag"
+                />
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_left_tag"
+                android:id="@+id/btnTagStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag_unselected"
+                android:gravity="center"
+                android:text="@string/text_tag_status"
+                android:textColor="@color/color_black_1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_tag"
+                />
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_left_tag"
+                android:id="@+id/btnTagDateRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tag_date_range"
+                android:background="@drawable/bg_tag_unselected"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_tag"
+                android:textColor="@color/color_black_1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jost_light"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linNoOrder"
+            android:layout_marginTop="@dimen/margin_top_non_order_to_tag_my_activities"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/size_icon_non_order"
+                android:layout_height="@dimen/size_icon_non_order"
+                android:src="@drawable/no_order"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_no_order"
+                android:textColor="@color/color_gray_4"
+                android:textSize="@dimen/text_size_no_order"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_text_no_order_to_icon"
+                />
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:paddingTop="@dimen/padding_top_bottom_button_explore_shop"
+                android:paddingBottom="@dimen/padding_top_bottom_button_explore_shop"
+                android:paddingLeft="@dimen/padding_right_left_button_explore_shop"
+                android:paddingRight="@dimen/padding_right_left_button_explore_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_explore_shop"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_button_account_profile"
+                android:background="@drawable/bg_button_black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_button_text_no_order_my_activities"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcvOrder"
+            android:layout_marginTop="@dimen/margin_top_tag_to_menu_my_activities"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu_profile"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/padding_body_element_to_border_info_profile"
+            android:layout_marginTop="@dimen/padding_body_element_to_border_info_profile"
+            android:layout_marginLeft="@dimen/padding_body_element_to_border_info_profile"
+            >
+
+            <RelativeLayout
+                android:background="@drawable/bg_menu_info_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/linInfo"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_menu_info_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_body_element_to_border_info_profile"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_hi_name_test"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/gotu_regular"
+                        android:textSize="@dimen/text_size_hi_name_menu_profile"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/margin_top_label_you_have_to_hi_menu_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_label_you_have"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/jost_light"
+                        android:textSize="@dimen/text_size_label_info_menu_profile"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/jost_regular"
+                            android:text="@string/text_points_info_profile"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_point_info_profile" />
+
+                        <TextView
+                            android:layout_alignParentBottom="true"
+                            android:gravity="bottom"
+                            android:layout_toRightOf="@id/txtPoints"
+                            android:layout_marginLeft="@dimen/margin_label_points_to_text_points"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/text_size_point_info_profile"
+                            android:text="@string/text_points"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/jost_light"
+                            android:textSize="@dimen/text_size_label_info_menu_profile"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/txtTapToView"
+                android:paddingLeft="@dimen/padding_body_element_to_border_info_profile"
+                android:background="@color/color_gray_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_text_tap_to_view_membership_card"
+                android:text="@string/text_tap_to_view_membership_card"
+                android:textColor="@color/white"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_label_info_menu_profile"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/padding_body_element_to_border_info_profile"
+                android:layout_marginLeft="@dimen/padding_body_element_to_border_info_profile"
+                android:padding="0dp"
+                android:layout_marginTop="@dimen/margin_top_refer_to_info_menu_profile"
+                android:background="@drawable/bg_refer_a_friend_to_get_rewards"
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_label_refer_to_screen_info_profile"
+                    android:layout_marginBottom="@dimen/margin_top_label_refer_to_screen_info_profile"
+                    android:layout_marginRight="@dimen/padding_body_element_to_border_info_profile"
+                    android:layout_marginLeft="@dimen/padding_body_element_to_border_info_profile"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_refer_a_friend_to_get_rewards"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/jost_medium"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_message_refer_menu_profile"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/jost_light"
+                        android:layout_marginTop="@dimen/margin_top_message_refer_to_label_info_profile"
+                        android:textSize="@dimen/text_size_message_refer_info_profile"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_weight="8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo_refer_a_friend_get_rewards"
+                    android:scaleType="fitXY"
+                    />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/padding_body_element_to_border_info_profile"
+                android:layout_marginLeft="@dimen/padding_body_element_to_border_info_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rcvMenuProfile"
+                android:layout_marginTop="@dimen/margin_top_element_to_refer_menu_profile"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".profile.menuprofile.membership.MembershipActivity">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/padding_body_element_to_border_info_profile"
+        android:paddingRight="@dimen/padding_body_element_to_border_info_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu_regular"
+            android:text="@string/text_membership"
+            android:layout_marginTop="@dimen/margin_top_label_to_back"
+            android:textSize="@dimen/text_size_label_redeem_points"
+            android:textStyle="bold"
+            android:textColor="@color/color_black_2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jost_light"
+            android:text="@string/text_label_membership_information"
+            android:layout_marginTop="@dimen/margin_top_label_membership_information_to_title_membership"
+            android:textSize="@dimen/text_size_label_you_have_redeem_points"
+            android:textColor="@color/color_black_2"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:fontFamily="@font/jost_regular"
+                    android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_label_membership_fee"
+                    android:textSize="@dimen/text_size_label_element_membership"
+                    android:textColor="@color/color_gray_4"
+                    />
+
+                <TextView
+                    android:id="@+id/txtMax"
+                    android:fontFamily="@font/jost_regular"
+                    android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_membership_fee_test"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/text_size_item_edittext"
+                    android:textColor="@color/color_black_1"
+                    android:layout_centerVertical="true"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_membership_end_date"
+                android:textSize="@dimen/text_size_label_element_membership"
+                android:textColor="@color/color_gray_4"
+                />
+
+            <TextView
+                android:id="@+id/txtMembershipEndDate"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_next_member_ship_payment_date_test"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textColor="@color/color_black_1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_membership_fee_payment_date"
+                android:textSize="@dimen/text_size_label_element_membership"
+                android:textColor="@color/color_gray_4"
+                />
+
+            <TextView
+                android:id="@+id/txtMembershipFeePaymentDate"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_next_member_ship_payment_date_test"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textColor="@color/color_black_1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_associated_code"
+                android:textSize="@dimen/text_size_label_element_membership"
+                android:textColor="@color/color_gray_4"
+                />
+
+            <TextView
+                android:id="@+id/txtAssociatedCodes"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_associated_code_test"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textColor="@color/color_black_1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_payment_plan"
+                android:textSize="@dimen/text_size_label_element_membership"
+                android:textColor="@color/color_gray_4"
+                />
+
+            <TextView
+                android:id="@+id/txtPaymentPlan"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_payment_plan_test"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textColor="@color/color_black_1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_between_element_membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_label_next_member_ship_payment_date"
+                android:textSize="@dimen/text_size_label_element_membership"
+                android:textColor="@color/color_gray_4"
+                />
+
+            <TextView
+                android:id="@+id/txtNextMembershipPaymentDate"
+                android:fontFamily="@font/jost_regular"
+                android:layout_marginTop="@dimen/margin_top_between_element_account_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_next_member_ship_payment_date_test"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size_item_edittext"
+                android:textColor="@color/color_black_1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_saperate_element"
+            android:background="@color/color_gray_2"
+            android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+            />
+        <TextView
+            android:id="@+id/btnChangePlan"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_button_change_plan"
+            android:background="@drawable/bg_button_black"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margintop_button_to_item_redeem_point"
+            />
+
+
+        <TextView
+            android:id="@+id/btnPaymentHistory"
+            android:layout_marginTop="@dimen/margin_top_between_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:background="@drawable/bg_button_white"
+            android:text="@string/text_button_payment_history"
+            android:textColor="@color/color_gray_4"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:fontFamily="@font/jost_regular"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtCancel"
+            android:layout_marginTop="@dimen/margin_top_between_button_account_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_cancel_membership"
+            android:textColor="@color/color_gray_4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/text_size_cancel_membership"
+            android:fontFamily="@font/jost_regular"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

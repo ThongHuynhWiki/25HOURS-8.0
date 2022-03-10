@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".profile.menuprofile.myactivities.filter.FilterActivity">
+
+    <LinearLayout
+        android:padding="@dimen/padding_body_element_to_border_info_profile"
+        android:nestedScrollingEnabled="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_black"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcvFilter"
+            android:layout_marginTop="@dimen/margin_top_list_filter_to_back_filter"
+            />
+
+        <TextView
+            android:id="@+id/btnApply"
+            android:layout_marginTop="@dimen/margin_top_button_to_list_filter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:background="@drawable/bg_button_black"
+            android:textColor="@color/white"
+            android:text="@string/text_apply"
+            android:gravity="center"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

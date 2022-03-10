@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_dialog_yes_no"
+    android:background="@drawable/bg_dialog_circle"
+    android:layout_margin="@dimen/margin_body_dialog_to_screen"
+    android:padding="@dimen/padding_button_comfirm_to_screen"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_confirm_update"
+            android:textColor="@color/color_black_1"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_label_confirm_dialog"
+            android:fontFamily="@font/jost_light"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/margintop_button_to_label_dialog_account_profile"
+            android:id="@+id/btnYes"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:background="@drawable/bg_button_black"
+            android:text="@string/text_yes"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:fontFamily="@font/jost_regular"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/btnNo"
+            android:layout_marginTop="@dimen/margin_top_between_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:background="@drawable/bg_button_white"
+            android:text="@string/text_no"
+            android:textColor="@color/color_gray_4"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:fontFamily="@font/jost_regular"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

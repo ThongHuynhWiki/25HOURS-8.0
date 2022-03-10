@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/txtImageProduct"
+        android:layout_width="@dimen/size_width_height_image_product_child_order"
+        android:layout_height="@dimen/size_width_height_image_product_child_order"
+        android:scaleType="fitXY"
+        android:src="@drawable/product" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProductName"
+        android:text="@string/text_default"
+        android:textSize="@dimen/text_size_email_profile"
+        android:fontFamily="@font/jost_light"
+        android:textStyle="bold"
+        android:textColor="@color/color_black_1"
+        android:layout_toRightOf="@id/txtImageProduct"
+        android:layout_marginLeft="@dimen/margin_left_info_to_logo_product_child_order"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPricePoints"
+        android:layout_below="@id/txtProductName"
+        android:text="@string/text_default"
+        android:textSize="@dimen/text_size_price_product_child_order"
+        android:layout_marginTop="@dimen/margin_top_price_to_name_product_child_order"
+        android:fontFamily="@font/jost_light"
+        android:textColor="@color/color_gray_4"
+        android:layout_toRightOf="@id/txtImageProduct"
+        android:layout_marginLeft="@dimen/margin_left_info_to_logo_product_child_order"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuantity"
+        android:layout_below="@id/txtImageProduct"
+        android:text="@string/text_default"
+        android:textSize="@dimen/text_size_price_product_child_order"
+        android:layout_marginTop="@dimen/margin_top_quantity_to_logo_product_child_order"
+        android:fontFamily="@font/jost_light"
+        android:textColor="@color/color_gray_4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTotalMoney"
+        android:layout_below="@id/txtImageProduct"
+        android:text="@string/text_default"
+        android:textSize="@dimen/margin_top_quantity_to_logo_product_child_order"
+        android:layout_marginTop="@dimen/margin_top_quantity_to_logo_product_child_order"
+        android:fontFamily="@font/jost_regular"
+        android:textColor="@color/color_black_1"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+
+        android:id="@+id/btnReorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTotalMoney"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/margin_top_button_to_total_money"
+        android:background="@drawable/bg_button_black"
+        android:fontFamily="@font/jost_regular"
+        android:paddingLeft="@dimen/padding_right_left_button_reorder"
+        android:paddingTop="@dimen/padding_right_left_button_explore_shop"
+        android:paddingRight="@dimen/padding_right_left_button_reorder"
+        android:paddingBottom="@dimen/padding_right_left_button_explore_shop"
+        android:text="@string/text_reorder"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_top_quantity_to_logo_product_child_order"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_below="@+id/btnReorder"
+        android:id="@+id/relLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_line_saperate_element"
+        android:background="@color/color_gray_2"
+        android:layout_marginBottom="@dimen/margin_top_line_to_label_membership"
+        android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
+        />
+
+</RelativeLayout>

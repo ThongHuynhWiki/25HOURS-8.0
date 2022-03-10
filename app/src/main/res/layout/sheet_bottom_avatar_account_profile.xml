@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sheet_white"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relCamera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_item_sheet_avatar_account_profile"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/text_camera"
+            android:textColor="@color/color_black_1"
+            android:fontFamily="@font/jost_light"
+            android:layout_marginLeft="@dimen/margin_left_text_to_border_sheet_account_profile"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_line_saperate_element"
+        android:background="@color/color_gray_2"/>
+    <RelativeLayout
+        android:id="@+id/relSelectFromGallery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_item_sheet_avatar_account_profile"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/text_select_from_gallery"
+            android:textColor="@color/color_black_1"
+            android:fontFamily="@font/jost_light"
+            android:layout_marginLeft="@dimen/margin_left_text_to_border_sheet_account_profile"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

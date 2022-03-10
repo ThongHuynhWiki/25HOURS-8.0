@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu_profile"
+    tools:context=".profile.menuprofile.membershipcard.MembershipCardActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_white"
+        android:layout_margin="@dimen/margin_img_membership"
+        />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imgBackgroundInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_card_info"
+        android:src="@drawable/background_card_info"
+        android:layout_margin="@dimen/margin_img_membership"
+        />
+
+    <RelativeLayout
+        android:layout_margin="@dimen/margin_img_membership"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_card_info">
+
+        <TextView
+            android:id="@+id/txtLabel25Hours"
+            android:fontFamily="@font/adobe_garamond_pro_regular"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="35dp"
+            android:textSize="@dimen/text_size_label_25_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_25_hours"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:fontFamily="@font/gotu_regular"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_name_info_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_name_test"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/margin_right_content_to_border_info_card"
+            />
+
+        <TextView
+            android:layout_below="@id/txtName"
+            android:id="@+id/txtLabelMemberID"
+            android:fontFamily="@font/adobe_garamond_pro_regular"
+            android:layout_marginTop="@dimen/margin_top_label_to_name_info_card"
+            android:textSize="@dimen/text_size_label_info_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_member_id"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/margin_right_content_to_border_info_card"
+            />
+
+        <TextView
+            android:id="@+id/txtMemberID"
+            android:fontFamily="@font/adobe_garamond_pro_regular"
+            android:textSize="@dimen/text_size_content_info_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_member_id_test"
+            android:layout_below="@id/txtLabelMemberID"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/margin_right_content_to_border_info_card"
+            />
+
+        <TextView
+            android:layout_below="@id/txtName"
+            android:id="@+id/txtLabelMemberExpiry"
+            android:fontFamily="@font/adobe_garamond_pro_regular"
+            android:layout_marginTop="@dimen/margin_top_label_to_name_info_card"
+            android:textSize="@dimen/text_size_label_info_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_label_member_id"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/margin_right_content_to_border_info_card"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            />
+        <TextView
+            android:id="@+id/txtMemberExpiry"
+            android:fontFamily="@font/adobe_garamond_pro_regular"
+            android:textSize="@dimen/text_size_content_info_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_member_expiry"
+            android:layout_below="@id/txtLabelMemberExpiry"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/margin_right_content_to_border_info_card"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

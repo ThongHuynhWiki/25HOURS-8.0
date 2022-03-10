@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/jost_light"
+        android:text="@string/text_default"
+        android:textColor="@color/color_black_1"
+        android:textSize="@dimen/text_size_label_filter_checkbox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckbCheck"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:buttonTint="@color/color_yellow_1"
+        />
+
+</RelativeLayout>
