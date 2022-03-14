@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.menuprofile.support.SupportActivity">
+
+    <LinearLayout
+        android:nestedScrollingEnabled="true"
+        android:paddingLeft="@dimen/padding_body_element_to_border_info_profile"
+        android:paddingRight="@dimen/padding_body_element_to_border_info_profile"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotu_regular"
+            android:text="@string/text_support"
+            android:layout_marginTop="@dimen/margin_top_label_to_back"
+            android:textSize="@dimen/text_size_label_redeem_points"
+            android:textStyle="bold"
+            android:textColor="@color/color_black_2"
+            />
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/margin_top_menu_to_title_my_activities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_line_saperate_element"
+                    android:background="@color/color_gray_2"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rcvMenu"
+                    android:padding="@dimen/padding_reset"
+                    />
+
+            </RelativeLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vpgMenuSupport"
+            android:layout_marginTop="@dimen/margin_top_element_to_title_refer"
+            />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

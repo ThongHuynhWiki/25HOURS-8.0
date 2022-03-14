@@ -83,13 +83,13 @@
         android:textStyle="bold" />
 
     <RelativeLayout
-        android:layout_below="@+id/btnReorder"
         android:id="@+id/relLine"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_line_saperate_element"
-        android:background="@color/color_gray_2"
-        android:layout_marginBottom="@dimen/margin_top_line_to_label_membership"
+        android:layout_below="@+id/btnReorder"
         android:layout_marginTop="@dimen/margin_top_line_to_label_membership"
-        />
+        android:layout_marginBottom="@dimen/margin_top_line_to_label_membership"
+        android:background="@color/color_gray_2" />
+
 
 </RelativeLayout>

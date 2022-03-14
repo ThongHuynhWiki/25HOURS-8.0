@@ -127,5 +127,16 @@
     <dimen name="padding_you_have_earned_point">10dp</dimen>
     <dimen name="margin_top_you_earned_to_gst">16dp</dimen>
     <dimen name="margin_top_btn_get_invoice_to_you_have">25dp</dimen>
+    <dimen name="text_size_title_refer">18dp</dimen>
+    <dimen name="height_img_refer_a_friend">170dp</dimen>
+    <dimen name="text_size_rules_refer">14dp</dimen>
+    <dimen name="margin_top_request_to_rules_refer">23dp</dimen>
+    <dimen name="margin_top_button_to_content_refer">33dp</dimen>
+    <dimen name="text_size_title_settings">18dp</dimen>
+    <dimen name="margin_top_element_to_title_refer">20dp</dimen>
+    <dimen name="margin_right_label_to_switch">13dp</dimen>
+    <dimen name="text_size_label_settings">13dp</dimen>
+    <dimen name="text_size_title_push_notification">18dp</dimen>
+    <dimen name="text_size_description_support_inquiry_form">14dp</dimen>
 
 </resources>

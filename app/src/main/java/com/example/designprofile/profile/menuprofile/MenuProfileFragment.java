@@ -21,6 +21,9 @@ import com.example.designprofile.profile.menuprofile.membership.MembershipActivi
 import com.example.designprofile.profile.menuprofile.membershipcard.MembershipCardActivity;
 import com.example.designprofile.profile.menuprofile.myactivities.MyActivitiesActivity;
 import com.example.designprofile.profile.menuprofile.reddeempoints.RedeemPointsActivity;
+import com.example.designprofile.profile.menuprofile.refer.ReferActivity;
+import com.example.designprofile.profile.menuprofile.setting.SettingsActivity;
+import com.example.designprofile.profile.menuprofile.support.SupportActivity;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
@@ -31,6 +34,7 @@ public class MenuProfileFragment extends BottomSheetDialogFragment implements Vi
 
     private RecyclerView rcvMenuProfile;
     private LinearLayout linInfo;
+    private LinearLayout linRefer;
     private TextView txtTapToView;
     private TextView txtPoints;
 
@@ -62,7 +66,8 @@ public class MenuProfileFragment extends BottomSheetDialogFragment implements Vi
     private void eventWidgets() {
 
         txtTapToView.setOnClickListener(this);
-        txtPoints.setOnClickListener(this);
+        linInfo.setOnClickListener(this);
+        linRefer.setOnClickListener(this);
 
     }
 
@@ -139,8 +144,32 @@ public class MenuProfileFragment extends BottomSheetDialogFragment implements Vi
                 intent = new Intent(view.getContext(), MyActivitiesActivity.class);
 
                 break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+
+                break;
+            case 8:
+                intent = new Intent(view.getContext(), SettingsActivity.class);
+                break;
+            case 9:
+                intent = new Intent(view.getContext(), SupportActivity.class);
+                break;
+            case 10:
+
+                break;
         }
-        startActivity(intent);
+
+        if(intent != null){
+            startActivity(intent);
+        }
 
     }
 
@@ -164,7 +193,7 @@ public class MenuProfileFragment extends BottomSheetDialogFragment implements Vi
     }
 
     private void initWidgets() {
-
+        linRefer = view.findViewById(R.id.linRefer);
         rcvMenuProfile = view.findViewById(R.id.rcvMenuProfile);
         linInfo = view.findViewById(R.id.linInfo);
         txtTapToView = view.findViewById(R.id.txtTapToView);
@@ -174,16 +203,27 @@ public class MenuProfileFragment extends BottomSheetDialogFragment implements Vi
     @Override
     public void onClick(View view) {
 
+        Intent intent = null;
         switch (view.getId()){
             case R.id.txtTapToView:
 
-                startActivity(new Intent(view.getContext(), MembershipCardActivity.class));
+                intent = new Intent(view.getContext(), MembershipCardActivity.class);
+
                 break;
 
-            case R.id.txtPoints:
+            case R.id.linInfo:
 
-                startActivity(new Intent(view.getContext(), RedeemPointsActivity.class));
+                intent = new Intent(view.getContext(), RedeemPointsActivity.class);
                 break;
+
+            case R.id.linRefer:
+
+                intent = new Intent(view.getContext(), ReferActivity.class);
+                break;
+        }
+
+        if (intent != null){
+            startActivity(intent);
         }
     }
 }

@@ -15,10 +15,13 @@
     <color name="color_gray_5">#00000029</color>
     <color name="color_gray_6">#6E6E6E</color>
     <color name="color_gray_7">#848484</color>
+    <color name="color_gray_9">#C3C3C3</color>
     <color name="color_black_2">#303030</color>
     <color name="color_yellow_1">#9F703A</color>
     <color name="color_black_3">#383838</color>
     <color name="color_blue_1">#037051</color>
     <color name="color_gray_8">#A5A5A5</color>
     <color name="color_yellow_2">#f7e6d2</color>
+    <color name="color_yellow_3">#9F703A</color>
+    <color name="g">#C3C3C3</color>
 </resources>

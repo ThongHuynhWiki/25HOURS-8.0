@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.menuprofile.refer.ReferActivity">
+
+    <LinearLayout
+        android:nestedScrollingEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        <include layout="@layout/include_toolbar_support" />-->
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_img_refer_a_friend"
+            android:src="@drawable/logo_refer_a_friend_get_rewards"
+            android:id="@+id/imgRefer"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_body_element_to_border_info_profile"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black_1"
+                android:text="@string/text_refer_a_friend"
+                android:textSize="@dimen/text_size_title_refer"
+                android:fontFamily="@font/gotu_regular"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_rules_refer"
+                android:textColor="@color/color_black_2"
+                android:textSize="@dimen/text_size_rules_refer"
+                android:fontFamily="@font/jost_light"
+                android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_request_refer"
+                android:textColor="@color/color_black_2"
+                android:textSize="@dimen/text_size_rules_refer"
+                android:fontFamily="@font/jost_light"
+                android:layout_marginTop="@dimen/margin_top_request_to_rules_refer"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_button_account_profile"
+                android:text="@string/text_invite_friends"
+                android:gravity="center"
+                android:background="@drawable/bg_button_black"
+                android:textColor="@color/white"
+                android:fontFamily="@font/jost_regular"
+                android:textSize="@dimen/text_size_button_account_profile"
+                android:layout_marginTop="@dimen/margin_top_button_to_content_refer"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

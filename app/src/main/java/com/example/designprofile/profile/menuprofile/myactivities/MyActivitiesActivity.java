@@ -26,12 +26,9 @@ public class MyActivitiesActivity extends AppCompatActivity implements View.OnCl
     private MenuAdapter menuAdapter;
     private RecyclerView rcvMenu;
 
-    private TextView txtLabelPrevious;
-    private RelativeLayout relLinePrevious;
     private TextView btnTagAll;
     private TextView btnTagShortBy;
     private TextView btnTagStatus;
-
 
     private RecyclerView rcvOrder;
     private ArrayList<ItemOrder> listOrder;
@@ -124,7 +121,7 @@ public class MyActivitiesActivity extends AppCompatActivity implements View.OnCl
 
     private void setMenuData() {
         list = new ArrayList<>();
-        list = getDataMenu();
+        list = getListDataMenu();
         menuAdapter = new MenuAdapter(MyActivitiesActivity.this, new MenuInferface() {
             @Override
             public void onClickListener(TextView textView, RelativeLayout relativeLayout) {
@@ -161,7 +158,7 @@ public class MyActivitiesActivity extends AppCompatActivity implements View.OnCl
 
     }
 
-    private ArrayList<String> getDataMenu() {
+    private ArrayList<String> getListDataMenu() {
         ArrayList<String> data = new ArrayList<>();
         data.add("Shop");
         return data;

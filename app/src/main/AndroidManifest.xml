@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DesignProfile">
         <activity
+            android:name=".profile.menuprofile.support.SupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.menuprofile.setting.selectsetting.SelectSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.menuprofile.setting.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.menuprofile.refer.ReferActivity"
+            android:exported="false" />
+        <activity
             android:name=".profile.menuprofile.myactivities.orderdetails.OrderDetailActivity"
             android:exported="false" />
         <activity

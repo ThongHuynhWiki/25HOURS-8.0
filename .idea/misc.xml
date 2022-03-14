@@ -3,6 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable-xhdpi/switch_thumb.xml" value="0.1515" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable-xhdpi/switch_track.xml" value="0.1515" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_biometric_settings.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_my_activities.xml" value="0.264" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_push_notifacetion.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_push_notification.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_redeem_points.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_refer.xml" value="0.152" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_select_setting.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_settings.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_support.xml" value="0.264" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/dialog_confirm_yes_no.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_faqs.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_inquiry_form.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_menu_profile.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/include_view_br.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_category_filter.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_filter_checkbox.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_menu_my_activities.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_menu_profile.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_menu_supports.xml" value="0.11041666666666666" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_notification.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_order_my_activities.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_payment_history.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_product_child_order.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_push_notification.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/DesignProfile/app/src/main/res/drawable-v24/bg_menu_info_profile.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/DesignProfile/app/src/main/res/drawable-v24/bg_refer_a_friend_to_get_rewards.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/DesignProfile/app/src/main/res/drawable-v24/bg_sheet_white.xml" value="0.205" />

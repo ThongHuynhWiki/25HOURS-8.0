@@ -104,4 +104,12 @@
     <string name="text_date_order_detail_test">Order Placed: 28 February 2022</string>
     <string name="text_address_order_details_test">70A Street Name, 08-115</string>
     <string name="text_post_code_test">Singapore 346897</string>
+    <string name="text_refer_a_friend">Refer a friend</string>
+    <string name="text_rules_refer">Spread the good news. You are already benefitting from the many rewards of the 25 Hours membership by now, so why not inform your friends and let them enjoy the exclusive benefits as well?</string>
+    <string name="text_request_refer">Start inviting your friends to 25 Hours now!</string>
+    <string name="text_invite_friends">Invite Friends</string>
+    <string name="text_push_notifacetions">Push Notificaticons</string>
+    <string name="text_biometric_settings">Biometric Settings</string>
+    <string name="text_toggle_all">Toggle All</string>
+    <string name="text_description_support_inquiry_form">Get personalised help, write an inquiry form to us. We will reply within 2 to 3 working days.</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_menu_profile"
@@ -23,33 +24,31 @@
                 android:background="@drawable/bg_menu_info_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:id="@+id/linInfo"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_menu_info_profile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/padding_body_element_to_border_info_profile"
-                    >
+                    android:background="@drawable/bg_menu_info_profile"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_body_element_to_border_info_profile">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/gotu_regular"
                         android:text="@string/text_hi_name_test"
                         android:textColor="@color/white"
-                        android:fontFamily="@font/gotu_regular"
-                        android:textSize="@dimen/text_size_hi_name_menu_profile"
-                        />
+                        android:textSize="@dimen/text_size_hi_name_menu_profile" />
 
                     <TextView
-                        android:layout_marginTop="@dimen/margin_top_label_you_have_to_hi_menu_profile"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_label_you_have_to_hi_menu_profile"
+                        android:fontFamily="@font/jost_light"
                         android:text="@string/text_label_you_have"
                         android:textColor="@color/white"
-                        android:fontFamily="@font/jost_light"
-                        android:textSize="@dimen/text_size_label_info_menu_profile"
-                        />
+                        android:textSize="@dimen/text_size_label_info_menu_profile" />
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
@@ -65,17 +64,16 @@
                             android:textSize="@dimen/text_size_point_info_profile" />
 
                         <TextView
-                            android:layout_alignParentBottom="true"
-                            android:gravity="bottom"
-                            android:layout_toRightOf="@id/txtPoints"
-                            android:layout_marginLeft="@dimen/margin_label_points_to_text_points"
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/text_size_point_info_profile"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="@dimen/margin_label_points_to_text_points"
+                            android:layout_toRightOf="@id/txtPoints"
+                            android:fontFamily="@font/jost_light"
+                            android:gravity="bottom"
                             android:text="@string/text_points"
                             android:textColor="@color/white"
-                            android:fontFamily="@font/jost_light"
-                            android:textSize="@dimen/text_size_label_info_menu_profile"
-                            />
+                            android:textSize="@dimen/text_size_label_info_menu_profile" />
 
                     </RelativeLayout>
 
@@ -105,6 +103,7 @@
             android:background="@color/white">
 
             <LinearLayout
+                android:id="@+id/linRefer"
                 android:layout_marginRight="@dimen/padding_body_element_to_border_info_profile"
                 android:layout_marginLeft="@dimen/padding_body_element_to_border_info_profile"
                 android:padding="0dp"

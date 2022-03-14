@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile.menuprofile.setting.SettingsActivity">
+
+    <LinearLayout
+        android:padding="@dimen/padding_body_element_to_border_info_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_settings"
+            android:textColor="@color/color_black_2"
+            android:textSize="@dimen/text_size_title_settings"
+            android:fontFamily="@font/gotu_regular"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_element_to_title_refer"
+            android:id="@+id/relPushNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/text_size_label_settings"
+                android:textStyle="bold"
+                android:fontFamily="@font/jost_light"
+                android:textColor="@color/color_gray_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_push_notifacetions"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_next_gray"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_view_br" />
+
+        <RelativeLayout
+            android:id="@+id/relBiometricSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/text_size_label_settings"
+                android:textStyle="bold"
+                android:fontFamily="@font/jost_light"
+                android:textColor="@color/color_gray_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_biometric_settings"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_next_gray"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_view_br" />
+
+        <RelativeLayout
+            android:id="@+id/relChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/text_size_label_settings"
+                android:textStyle="bold"
+                android:fontFamily="@font/jost_light"
+                android:textColor="@color/color_gray_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_button_change_password"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
