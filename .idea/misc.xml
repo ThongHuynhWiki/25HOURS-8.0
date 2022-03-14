@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable-mdpi/bg_dialog_preview_inquiry_form.xml" value="0.1515" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable-xhdpi/switch_thumb.xml" value="0.1515" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable-xhdpi/switch_track.xml" value="0.1515" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable/bg_button_white.xml" value="0.1515" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/drawable/bg_dialog_circle.xml" value="0.1515" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_account.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_biometric_settings.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_my_activities.xml" value="0.264" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_payment_history.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_push_notifacetion.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_push_notification.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_redeem_points.xml" value="0.12360688956433637" />
@@ -15,11 +20,13 @@
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_settings.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/activity_support.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/dialog_confirm_yes_no.xml" value="0.12360688956433637" />
-        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_faqs.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/dialog_preview_inquiry_form_support.xml" value="0.24230072463768115" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_faqs.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_inquiry_form.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/fragment_menu_profile.xml" value="0.1" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/include_view_br.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_category_filter.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_faqs.xml" value="0.24230072463768115" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_filter_checkbox.xml" value="0.12360688956433637" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_menu_my_activities.xml" value="0.12360688956433637" />
         <entry key="..\:/ProjectAndroid/25HOURS/DesignProfile/app/src/main/res/layout/item_menu_profile.xml" value="0.12360688956433637" />

@@ -26,6 +26,7 @@ public class SupportAdapter extends FragmentStateAdapter {
             case 1:
 
                 return new FragmentInquiryForm();
+
             default:
                 return new FragmentFAQS();
         }

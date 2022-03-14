@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_click"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="@string/text_default"
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/color_black_2"
+            android:textSize="@dimen/text_size_protest_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="@dimen/margin_top_element_to_label_account_profile"
+            android:id="@+id/txtContent"
+            android:text="@string/text_default"
+            android:fontFamily="@font/jost_light"
+            android:textColor="@color/color_black_2"
+            android:textSize="@dimen/text_size_protest_support"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <include layout="@layout/include_view_br"/>
+
+
+</LinearLayout>

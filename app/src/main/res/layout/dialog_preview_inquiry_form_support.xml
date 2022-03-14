@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:background="@drawable/bg_dialog_preview_inquiry_form"
+        android:layout_marginRight="@dimen/margin_left_text_to_border_sheet_account_profile"
+        android:layout_marginLeft="@dimen/margin_left_text_to_border_sheet_account_profile"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_dialog_submit_inquiry_form_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_message_protest_support"
+            android:textSize="@dimen/text_size_protest_support"
+            android:textColor="@color/color_black_1"
+            android:fontFamily="@font/jost_light"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_element_find_more_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_label_call_us"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_size_label_filter_checkbox" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCallUs"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_yellow_1"
+                android:text="@string/text_call_us_test"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_label_filter_checkbox"
+                />
+
+        </RelativeLayout>
+
+
+        <include layout="@layout/include_view_br" />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_element_find_more_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_label_email"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_size_label_filter_checkbox" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_yellow_1"
+                android:text="@string/text_email_test"
+                android:fontFamily="@font/jost_light"
+                android:textSize="@dimen/text_size_label_filter_checkbox"
+                />
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_view_br" />
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top_element_find_more_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_label_operating_hours"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_size_label_filter_checkbox" />
+
+            <TextView
+                android:id="@+id/txtOperatingHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/jost_light"
+                android:text="@string/text_operating_hours_test"
+                android:textColor="@color/color_black_1"
+                android:textSize="@dimen/text_size_label_filter_checkbox" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btnOK"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jost_regular"
+            android:textSize="@dimen/text_size_button_account_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_account_profile"
+            android:text="@string/text_button_ok"
+            android:background="@drawable/bg_button_black"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margintop_button_to_item_redeem_point"
+            />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

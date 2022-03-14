@@ -40,6 +40,7 @@ public class SupportActivity extends AppCompatActivity {
 
     private void eventWidgets() {
 
+        vpgMenuSupport.setUserInputEnabled(false);
     }
 
     private void setAllData() {
@@ -47,6 +48,7 @@ public class SupportActivity extends AppCompatActivity {
         setDataMenu();
 
         setFragmentBody();
+
     }
 
     private ArrayList<String> getListDataMenu() {
@@ -83,6 +85,7 @@ public class SupportActivity extends AppCompatActivity {
     private void onClickItemMenu(TextView textView, RelativeLayout relativeLayout, int position) {
             setBackgroundSelected(textView, relativeLayout, position);
             vpgMenuSupport.setCurrentItem(position);
+
 //                if(txtLabelPrevious != textView && relativeLayout != relLinePrevious){
 //            textView.setTextColor(getResources().getColor(R.color.color_yellow_1));
 //            relativeLayout.setBackgroundColor(getResources().getColor(R.color.color_yellow_1));
@@ -123,6 +126,9 @@ public class SupportActivity extends AppCompatActivity {
     private void setFragmentBody() {
         supportAdapter = new SupportAdapter(this);
         vpgMenuSupport.setAdapter(supportAdapter);
+
+        vpgMenuSupport.setCurrentItem(1);
+        vpgMenuSupport.setCurrentItem(0);
     }
 
 

@@ -112,4 +112,15 @@
     <string name="text_biometric_settings">Biometric Settings</string>
     <string name="text_toggle_all">Toggle All</string>
     <string name="text_description_support_inquiry_form">Get personalised help, write an inquiry form to us. We will reply within 2 to 3 working days.</string>
+    <string name="text_label_subject">SUBJECT</string>
+    <string name="text_label_message">Message</string>
+    <string name="text_hint_message_support">Let us know we can help you</string>
+    <string name="text_find_more_help">Find more help</string>
+    <string name="text_call_us_test">+65 6533 0000</string>
+    <string name="text_label_call_us">Call Us</string>
+    <string name="text_label_email">Email</string>
+    <string name="text_label_operating_hours">Operating Hours</string>
+    <string name="text_operating_hours_test">Mon to Fri: 0900 to 1800 \nEve of PH: 0900 to 1300\nPH, Sat, Sun: Office Closed</string>
+    <string name="text_message_protest_support">Your message is being handled by our dedicated Membership Service Consultant.\n\nWe will get in touch with you soon.\nIn the unlikely event that you do not hear from us within 3 working days, kindly contact us at:</string>
+    <string name="text_button_ok">OK</string>
 </resources>
