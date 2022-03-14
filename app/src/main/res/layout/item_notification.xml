@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_default"
+        android:textColor="@color/color_black_1"
+        android:textSize="@dimen/text_size_label_settings"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/jost_light"
+        android:textStyle="bold"
+        />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:thumb="@drawable/switch_thumb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:track="@drawable/switch_track" />
+
+</RelativeLayout>
